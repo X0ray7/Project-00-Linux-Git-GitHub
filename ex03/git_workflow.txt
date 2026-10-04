@@ -1,0 +1,23 @@
+1. Initialize a local Git repository:
+   git init
+
+2. Check the status of the working tree status for any modification:
+   git status
+
+3. Stage the project files for tracking:
+   git add .
+
+4. Check the status again to confirm staged files:
+   git status
+
+5. Commit the changes with a clear message:
+   git commit -m "Complete Project 00: Linux + Git + GitHub"
+
+6. Link the local repository to the remote GitHub repository:
+   git remote add origin https://github.com/X0ray7/Project-00-Linux-Git-GitHub.git
+
+7. Rename the default branch to main:
+   git branch -M main
+
+8. Push the local commits to the remote GitHub repository:
+   git push -u origin main
